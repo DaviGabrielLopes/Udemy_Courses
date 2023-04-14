@@ -7,58 +7,136 @@ body{
     background-image: url(img/fundo.png);
     background-repeat: repeat-x;
     background-size: 220px 180px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 header img{
-    padding: 20px 0px 15px;
+    padding: 20px 0px 15px 10px; 
     width: 120px;
 }
+
+
+/*ESTRUTURAÇÃO*/
 
 #container_prin{
     margin: 0 auto;
     padding: 0;
     max-width: 720px;
-    min-width: 565px;
+    min-width: 720px;
 }
 
-nav{
+#conteudo_prin{
+    margin: 70px 0px 0px 0px;
+    background-color: white;
+}
+
+.container_conteudo{
+    display: inline;
+    width: 35.4%;
+    float: left;
+    margin-left: 30px;
+}
+
+.container_navL{
+    display: inline;
+    width: 20%;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+/*FIM ESTRUTURAÇÃO*/
+
+
+/*NAVEGAÇÃO*/
+
+#menu{
     display: inline-block;
 }
 
-nav ul{
+#menu ul{
     list-style: none;
     float: left;
     border: RGB(101, 4, 63) solid 1px;
 }
-nav ul li{
+#menu ul li{
     float: left;
     padding: 10px 0px 10px 0px;
     text-align:center;
     background-color: RGB(177, 0, 46);
 }
 
-nav ul li a{
+#menu ul li a{
     text-decoration: none;
     color: white;
     padding: 10px 15px;
 }
 
-nav ul li a:hover{
+#menu ul li a:hover{
     background-color: RGB(225, 0, 55);
     transition: 0.3s;
 }
 
-nav ul li a:not(:hover){
+#menu ul li a:not(:hover){
     background-color: RGB(177, 0, 46);
     transition: 0.3s;
 }
 
-nav ul li a.link_atual{
+#menu ul li a.link_atual{
     background-color: RGB(225, 0, 55);
 }
 
-.clear{
-    clear: both;
+#menu_l ul{
+    border-image:url(img/fundo-caixa.png) 30 30 30 30 round;
 }
+
+#menu_l ul li{
+    list-style: none;
+    padding: 10px 5px;
+}
+
+#menu_l a{
+    text-decoration: none;
+    color: black;
+}
+
+/*FIM NAVEGAÇÃO*/
+
+
+/*ESTILO TEXTO*/
+
+.container_navL h1{
+    background-color: RGB(40, 73, 109);
+    padding: 5px;
+    color: white;
+}
+
+.container_conteudo h1{
+    background-color: RGB(40, 73, 109);
+    padding: 5px;
+    color: white;
+}
+
+.p_style1{
+    display: inline-flex;
+    font-size: small;
+    margin-top: 10px;
+    padding: 3px;
+    background-color: RGB(233, 0, 55);
+}
+
+.p_style2{
+    display: inline-flex;
+    font-size: small;
+    margin-top: 10px;
+    padding: 3px;
+    color: white;
+    background-color: RGB(178, 0, 45);
+}
+
+/*FIM ESTILO TEXTO*/
+
+
 
