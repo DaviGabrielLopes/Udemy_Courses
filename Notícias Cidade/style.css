@@ -1,0 +1,64 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/fundo.png);
+    background-repeat: repeat-x;
+    background-size: 220px 180px;
+}
+
+
+header img{
+    padding: 20px 0px 15px;
+    width: 120px;
+}
+
+#container_prin{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 720px;
+    min-width: 565px;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav ul{
+    list-style: none;
+    float: left;
+    border: RGB(101, 4, 63) solid 1px;
+}
+nav ul li{
+    float: left;
+    padding: 10px 0px 10px 0px;
+    text-align:center;
+    background-color: RGB(177, 0, 46);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover{
+    background-color: RGB(225, 0, 55);
+    transition: 0.3s;
+}
+
+nav ul li a:not(:hover){
+    background-color: RGB(177, 0, 46);
+    transition: 0.3s;
+}
+
+nav ul li a.link_atual{
+    background-color: RGB(225, 0, 55);
+}
+
+.clear{
+    clear: both;
+}
+
