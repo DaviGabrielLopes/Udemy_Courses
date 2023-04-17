@@ -27,24 +27,53 @@ header img{
 
 #conteudo_prin{
     margin: 70px 0px 0px 0px;
+}
+
+#container_sec{
+    background-image: url(img/fundo-caixa.png);
+    width: 71.6%;
+    margin-left: 20px;
+    float: left;
+}
+
+#container_conteudo1{
+    display: inline;
+    width: 48.5%;
+    float: left;
+    margin: 5px 0px 5px 5px;
     background-color: white;
 }
 
-.container_conteudo{
+#container_conteudo2{
     display: inline;
-    width: 35.4%;
+    width: 48.5%;
     float: left;
-    margin-left: 30px;
+    margin: 5px 0px 5px 5px;
+    background-color: white;
 }
 
 .container_navL{
+    background-image: url(img/fundo-caixa.png);
     display: inline;
-    width: 20%;
+    width: 25%;
     float: left;
 }
 
 .clear{
     clear: both;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    height: 60px;
+    margin-top: 50px;
+    background-color: RGB(41, 76, 113);
+}
+
+footer p{
+    font-size: 90%;
+    padding-top: 24px;
 }
 
 /*FIM ESTRUTURAÇÃO*/
@@ -88,12 +117,10 @@ header img{
     background-color: RGB(225, 0, 55);
 }
 
-#menu_l ul{
-    border-image:url(img/fundo-caixa.png) 30 30 30 30 round;
-}
-
 #menu_l ul li{
     list-style: none;
+    background-color: white;
+    margin: 0px 5px;
     padding: 10px 5px;
 }
 
@@ -109,11 +136,13 @@ header img{
 
 .container_navL h1{
     background-color: RGB(40, 73, 109);
-    padding: 5px;
+    margin: 3px;
+    height: 35px;
+    padding: 5px 0px 0px 3px;
     color: white;
 }
 
-.container_conteudo h1{
+.h1_style1{
     background-color: RGB(40, 73, 109);
     padding: 5px;
     color: white;
