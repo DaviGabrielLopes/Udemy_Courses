@@ -11,7 +11,7 @@ body{
 }
 
 header img{
-    padding: 20px 0px 15px 10px; 
+    padding: 20px 0px 15px 25px; 
     width: 120px;
 }
 
@@ -52,10 +52,11 @@ header img{
     background-color: white;
 }
 
-.container_navL{
+#container_navL{
     background-image: url(img/fundo-caixa.png);
     display: inline;
     width: 25%;
+    padding: 0px 0px 5px 0px;
     float: left;
 }
 
@@ -100,7 +101,7 @@ footer p{
 #menu ul li a{
     text-decoration: none;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
 }
 
 #menu ul li a:hover{
@@ -117,6 +118,8 @@ footer p{
     background-color: RGB(225, 0, 55);
 }
 
+/*menu lateral*/
+
 #menu_l ul li{
     list-style: none;
     background-color: white;
@@ -129,12 +132,35 @@ footer p{
     color: black;
 }
 
+#menu_l a:hover{
+    color: rgb(161, 161, 180);
+}
+
 /*FIM NAVEGAÇÃO*/
+
+
+/*ESTILO IMAGEM*/
+
+.img_topico_prin img{
+    padding: 5px;
+    width: 96%;
+}
+
+.img_topico_prin figcaption {
+    padding-left: 5px;
+}
+
+.img_topico_prin a{
+    text-decoration: none;
+    color:#E50040;
+}
+
+/*FIM ESTILO IMAGEM*/
 
 
 /*ESTILO TEXTO*/
 
-.container_navL h1{
+#container_navL h1{
     background-color: RGB(40, 73, 109);
     margin: 3px;
     height: 35px;
