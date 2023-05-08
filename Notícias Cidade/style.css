@@ -26,8 +26,35 @@ header img{
 }
 
 #conteudo_prin{
-    border: #E50040 solid 1px;
     margin: 70px 0px 0px 0px;
+}
+
+#container_navL{
+    background-image: url(img/fundo-caixa.png);
+    display: inline;
+    width: 25%;
+    padding: 0px 0px 5px 0px;
+    float: left;
+}
+
+#form_email{
+    background-color: white;
+}
+
+
+#form_email form label{
+    padding: 5px;
+    display: block;
+    background-color: white;
+}
+
+.input_cadastrar{
+    background-color: #E50040;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 #container_sec{
@@ -35,7 +62,6 @@ header img{
     width: 71.6%;
     margin-left: 20px;
     float: left;
-    border: #08e500 solid 1px;
 }
 
 #container_conteudo1{
@@ -60,7 +86,6 @@ header img{
     float: left;
     margin: 5px 0px 5px 5px;
     background-color: white;
-    border: #E50040 solid 1px;
 }
 
 #container_conteudo4{
@@ -69,16 +94,9 @@ header img{
     float: left;
     margin: 5px 0px 5px 5px;
     background-color: white;
-    border: #E50040 solid 1px;
 }
 
-#container_navL{
-    background-image: url(img/fundo-caixa.png);
-    display: inline;
-    width: 25%;
-    padding: 0px 0px 5px 0px;
-    float: left;
-}
+
 
 .clear{
     clear: both;
@@ -184,7 +202,6 @@ footer p{
 .img_topico_sec img{
     margin: 10px 7px;    
     width: 30%;
-    border: yellow solid 1px;
     float: left;
 }
 
