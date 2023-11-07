@@ -5,7 +5,7 @@
 Aqui eu salvo todos os projetos desenvolvidos na Udemy, com o propósito de desenvolvimento profissional.
 Cada projeto terá disponível dois materiais, sendo eles:
 
--> Pasta Projeto feito por mim - pasta contendo os arquivos feitos por mim utilando de conenhecimento adquirido, sem ajuda do professor/vídeo aula passo a passo.
+-> Pasta Projeto feito por mim - pasta contendo os arquivos feitos por mim utilizando de conenhecimento adquirido, sem ajuda do professor/vídeo aula passo a passo.
 -> Pasta Projeto Original - pasta contendo os arquivos originais (resposta de exercício), ou seja, dada pelo professor/vídeo aula e feito passo a passo.
 
 Obs: Gosto bastante dessa dinâmica de aprendizado, pois viabiliza meu desenvolvimento próprio dos projetos e assim aprendo na prática.
